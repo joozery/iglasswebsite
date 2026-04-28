@@ -33,6 +33,9 @@ const AdminSidebar: React.FC<SidebarProps> = ({ activeUser }) => {
     { name: 'จัดการบริการ', icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a2 2 0 0 1-2.78-2.78L14.7 6.3Z"/><path d="m3.13 13.39 6.74-6.74a2.83 2.83 0 0 1 4 4l-6.74 6.74a10.73 10.73 0 0 1-4 2.68l-2.63.88.88-2.63a10.73 10.73 0 0 1 2.68-4Z"/><path d="m15.43 15.43 2.57 2.57"/><path d="m11.57 11.57 2.57 2.57"/></svg>
     ), path: '/admin/services' },
+    { name: 'จัดการโปรโมชั่น', icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+    ), path: '/admin/promotions' },
     { name: 'จัดการแบรนด์', icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
     ), path: '/admin/brands' },
